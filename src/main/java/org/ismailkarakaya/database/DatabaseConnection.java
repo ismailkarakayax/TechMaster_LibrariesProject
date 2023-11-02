@@ -5,8 +5,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class DatabaseConnection extends DatabaseI
-        nformation{
+public class DatabaseConnection extends DatabaseInformation{
     // Field
     private String url=super.getUrl();
     private String user=super.getUser();
